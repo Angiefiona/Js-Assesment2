@@ -33,10 +33,9 @@ console.log(newBook(isAvailable))
 // the book's isAvailable property to false. If the book is not found in the library, the
 // function should return a message indicating that the book is not available.
 function checkoutBook(title)
-let title = 0
-for title in books{
-    
-}
-// 5. Create a function returnBook that takes a book title as an argument and changes the
-// book's isAvailable property to true. If the book is not found in the library, the function
-// should return a message indicating that the book does not belong to the library.
+let title = 'Great Expectations'
+console.log(books(title, 'Great Expectation'))
+
+
+
+
